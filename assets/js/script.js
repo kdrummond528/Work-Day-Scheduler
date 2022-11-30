@@ -27,14 +27,16 @@ function currentTime() {
 
 }
 
-// save user input to local storage when user clicks save button
-saveBtn.on("click", function () {
-
-    var hour = $(this).siblings(".description").val();
-
+// function to save user input to local storage when user clicks save button
+$(document).ready(function () {
+    $(".saveBtn").on("click", function () {
+        // saves input information in the hour where it was inputted
+        var event = $(this).siblings(".description").val();
+        var hour = $(this).parent().attr("id");
+    })
 })
 
-// get from local storage 
+// get from local storage if there is something there
 $("#9 .description").val(localStorage.getItem("9"));
 $("#10 .description").val(localStorage.getItem("10"));
 $("#11 .description").val(localStorage.getItem("11"));
