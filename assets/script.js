@@ -9,7 +9,14 @@ function currentTime() {
 
     // for loop for each of the hour color blocks if past present future
     $(".time-block").each(function () {
-        var hourBlock
+        var hourBlock = parseInt($(this).attr("id").split("hour")[1]);
+
+        // if the hour row is less than the current hour make row gray for past
+        if (hourBlock < currentHour) {
+            $(this).removeClass("future");
+            $(this).removeClass("present");
+            $(this).addClass("past");
+        }
 
     })
 
