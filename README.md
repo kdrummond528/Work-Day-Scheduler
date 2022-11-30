@@ -39,6 +39,12 @@ A simple calendar application that allows a user to save events for each hour of
 
 ## Usage
 
+This Work Day Scheduler allows you to schedule events between the hours of 9AM and 5PM, and shows the current date at the top of the page. 
+
+It will present the hour row in the color red for the present, green for the future, and gray for the past.
+
+Each hour block has an input field where the user can insert events and save to their local storage by clicking the save button.
+
 [Back to top](#work-day-scheduler)
 
 ## Mock-Up
