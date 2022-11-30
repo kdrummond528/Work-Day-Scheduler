@@ -6,10 +6,11 @@ A simple calendar application that allows a user to save events for each hour of
 ## Table of Contents
 * [User Story](#user-story)
 * [Acceptance Criteria](#acceptance-criteria)
-* [Usage](#Usage)
+* [Usage](#usage)
 * [Mock-Up](#mock-up)
+* [Screenshots](#screenshots)
 * [Links](#links)
-* [Contact](#Contact)
+* [Contact](#contact)
 
 ## User Story
 
