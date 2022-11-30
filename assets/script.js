@@ -1,6 +1,6 @@
 // show todays date in the header/jumbotron
-var todayDate = moment().format('dddd, MMM Do YYYY');
-$("#currentDay").html(todayDate);
+var currentDate = moment().format('dddd, MMM Do YYYY');
+$("#currentDay").html(currentDate);
 
 // function to get the current time
 function currentTime() {
@@ -13,11 +13,22 @@ function currentTime() {
 
         // if the hour row is less than the current hour make row gray for past
         if (hourBlock < currentHour) {
-            $(this).removeClass("future");
-            $(this).removeClass("present");
             $(this).addClass("past");
+            $(this).removeClass("present");
+            $(this).removeClass("future");
         }
-
+        // if the hour row is equal to the current hour make row red for present
+        else if (hourBlock === currentHour) {
+            $(this).removeClass("past");
+            $(this).addClass("present");
+            $(this).removeClass("future");
+        }
+        // if the hour row is greater than the current hour make row green for future
+        else {
+            $(this).removeClass("past");
+            $(this).removeClass("present");
+            $(this).addClass("future");
+        }
     })
 
 }
@@ -27,3 +38,5 @@ function currentTime() {
 // save user input to local storage when user clicks save button
 
 // get from local storage 
+
+currentTime();
