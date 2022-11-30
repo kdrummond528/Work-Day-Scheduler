@@ -43,6 +43,18 @@ A simple calendar application that allows a user to save events for each hour of
 
 ## Mock-Up
 
+The following animation demonstrates the application's intended appearance and functionality:
+
+![mockup](./assets/05-third-party-apis-homework-demo.gif)
+
+[Back to top](#work-day-scheduler)
+
+## Screenshots
+
+The following screenshots demonstrate my application's appearance and functionality:
+
+![screenshot]()
+
 [Back to top](#work-day-scheduler)
 
 ## Links
