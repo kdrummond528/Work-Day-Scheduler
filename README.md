@@ -24,7 +24,7 @@ Each hour block has an input field where the user can insert events, and save to
 
 The following animation demonstrates the application's intended appearance and functionality:
 
-![mockup](./assets/images/05-third-party-apis-homework-demo.gif05-third-party-apis-homework-demo.gif)
+![mockup](./assets/images/05-third-party-apis-homework-demo.gif)
 
 [Back to top](#work-day-scheduler)
 
