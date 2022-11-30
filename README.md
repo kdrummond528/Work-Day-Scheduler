@@ -31,13 +31,21 @@ A simple calendar application that allows a user to save events for each hour of
     WHEN I refresh the page
     THEN the saved events persist
 
+[Back to top](#work-day-scheduler)
+
 ## Usage
 
+[Back to top](#work-day-scheduler)
+
 ## Mock-Up
+
+[Back to top](#work-day-scheduler)
 
 ## Links
 - [Live Deployed Application](https://kdrummond528.github.io/Work-Day-Scheduler/)
 - [GitHub Repository](https://github.com/kdrummond528/Work-Day-Scheduler)
+
+[Back to top](#work-day-scheduler)
 
 ## Contact
 - Feel free to [email](mailto:k.drummond528@gmail.com) me if you have any questions or comments.
@@ -47,3 +55,5 @@ A simple calendar application that allows a user to save events for each hour of
 - Connect with me on [LinkedIn](https://www.linkedin.com/in/karinadrummond).
 
 - View my [portfolio](https://kdrummond528.github.io/Personal-Portfolio/).
+
+[Back to top](#work-day-scheduler)
