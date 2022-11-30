@@ -9,7 +9,7 @@ function currentTime() {
 
     // for loop for each of the hour color blocks if past present future
     $(".time-block").each(function () {
-        var hourBlock = parseInt($(this).attr("id").split("hr")[1]);
+        var hourBlock = parseInt($(this).attr("id"));
 
         // if the hour row is less than the current hour make row gray for past
         if (hourBlock < currentHour) {
@@ -28,19 +28,22 @@ function currentTime() {
 }
 
 // save button event listener
+$(document).ready(function () {
 
-// save user input to local storage when user clicks save button
+    // save user input to local storage when user clicks save button
 
-// get from local storage 
-$("#hr9 .description").val(localStorage.getItem("hr9"));
-$("#hr10 .description").val(localStorage.getItem("hr10"));
-$("#hr11 .description").val(localStorage.getItem("hr11"));
-$("#hr12 .description").val(localStorage.getItem("hr12"));
-$("#hr13 .description").val(localStorage.getItem("hr13"));
-$("#hr14 .description").val(localStorage.getItem("hr14"));
-$("#hr15 .description").val(localStorage.getItem("hr15"));
-$("#hr16 .description").val(localStorage.getItem("hr16"));
-$("#hr17 .description").val(localStorage.getItem("hr17"));
+    // get from local storage 
+    $("#hr9 .description").val(localStorage.getItem("hr9"));
+    $("#hr10 .description").val(localStorage.getItem("hr10"));
+    $("#hr11 .description").val(localStorage.getItem("hr11"));
+    $("#hr12 .description").val(localStorage.getItem("hr12"));
+    $("#hr13 .description").val(localStorage.getItem("hr13"));
+    $("#hr14 .description").val(localStorage.getItem("hr14"));
+    $("#hr15 .description").val(localStorage.getItem("hr15"));
+    $("#hr16 .description").val(localStorage.getItem("hr16"));
+    $("#hr17 .description").val(localStorage.getItem("hr17"));
+
+})
 
 // runs the function
 currentTime();
