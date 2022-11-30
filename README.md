@@ -38,7 +38,6 @@ The following screenshots demonstrate my application's appearance and functional
 
 ## Links
 - [Live Deployed Application](https://kdrummond528.github.io/Work-Day-Scheduler/)
-- [GitHub Repository](https://github.com/kdrummond528/Work-Day-Scheduler)
 
 [Back to top](#work-day-scheduler)
 
